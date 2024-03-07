@@ -31,6 +31,18 @@ body {
     width: 800px;
 }
 
+#itinerary {
+    padding: 50px;
+}
+
+#bingo {
+    margin-top: 50px;
+}
+
+#teams {
+    margin-top: 70px;
+}
+
 .bingo-title {
     font-size: x-large;
     padding-bottom: 40px;
@@ -211,4 +223,13 @@ body {
     font-size: large;
     color: black;
     font-weight: bold;
+}
+
+.scorecard-hr {
+    border: 2px solid black;
+    width: 100%;
+}
+
+.scorecard-title {
+    margin-bottom: 1px;
 }
