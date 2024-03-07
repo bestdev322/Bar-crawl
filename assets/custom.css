@@ -107,7 +107,7 @@ body {
 .itinerary-title {
     position: absolute;
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: 800;
     background-color: white;
     padding: 10px;
     color: #ce1472;
@@ -118,10 +118,16 @@ body {
     font-size: x-large;
     color: black;
     width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.font-bold {
+    font-weight: 600;
 }
 
 .font-bolder {
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .itinerary-table tr {
@@ -129,8 +135,9 @@ body {
 }
 
 .itinerary-table tr td {
-    padding: 20px;
+    padding: 10px;
     vertical-align: top;
+    line-height: 30px;
 }
 
 .itinerary-table tr td:first-child {
@@ -180,6 +187,7 @@ body {
     padding: 20px;
     font-size: x-large;
     color: white;
+    font-weight: 800;
 }
 
 .scorecard-table1 td {
@@ -232,4 +240,12 @@ body {
 
 .scorecard-title {
     margin-bottom: 1px;
+}
+
+.font-small {
+    font-size: small;
+}
+
+.font-gabriela {
+    font-family: 'Gabriela';
 }
