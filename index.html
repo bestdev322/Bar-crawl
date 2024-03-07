@@ -2,110 +2,225 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="./assets/custom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <img class="logo" src="./logo.png" />
-        <h1 class="title">Jenna’s 30th Festivities</h1>
-        <table>
-            <tr>
-                <td>
-                    <div class="card" id="card-1-1">Jenna’s 30th Festivities</div>
-                </td>
-                <td>
-                    <div class="card" id="card-1-2">Start a limbo line</div>
-                </td>
-                <td>
-                    <div class="card" id="card-1-3">Pickleback shot</div>
-                </td>
-                <td>
-                    <div class="card" id="card-1-4">Try on a stranger’s article of clothing or accessory</div>
-                </td>
-                <td>
-                    <div class="card" id="card-1-5">Give a piggyback ride</div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="card" id="card-2-1">Body shot!!</div>
-                </td>
-                <td>
-                    <div class="card" id="card-2-2">Request a song (successfully)</div>
-                </td>
-                <td>
-                    <div class="card" id="card-2-3">Kiss someone</div>
-                </td>
-                <td>
-                    <div class="card" id="card-2-4">Do karoke</div>
-                </td>
-                <td>
-                    <div class="card" id="card-2-5">Wrong bathroom entrance</div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="card" id="card-3-1">Be in the center of a dance circle </div>
-                </td>
-                <td>
-                    <div class="card" id="card-3-2">Drink a shot with a straw</div>
-                </td>
-                <td>
-                    <img src="./center_img.png" alt="">
-                </td>
-                <td>
-                    <div class="card" id="card-3-4">Touch a mustache</div>
-                </td>
-                <td>
-                    <div class="card" id="card-3-5">Start a conga line</div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="card" id="card-4-1">Photobomb a stranger’s selfie</div>
-                </td>
-                <td>
-                    <div class="card" id="card-4-2">Double fist two drinks</div>
-                </td>
-                <td>
-                    <div class="card" id="card-4-3">Dance on a poll</div>
-                </td>
-                <td>
-                    <div class="card" id="card-4-4">Post something on social media</div>
-                </td>
-                <td>
-                    <div class="card" id="card-4-5">Dance with a stranger</div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="card" id="card-5-1">Order a drink with a foreign accent</div>
-                </td>
-                <td>
-                    <div class="card" id="card-5-2">Give someone a pen tattoo</div>
-                </td>
-                <td>
-                    <div class="card" id="card-5-3">Win a chug off</div>
-                </td>
-                <td>
-                    <div class="card" id="card-5-4">Take a selfie with a bartender</div>
-                </td>
-                <td>
-                    <div class="card" id="card-5-5">Dance on a table or chair</div>
-                </td>
-            </tr>
-        </table>
+        <div class="menu">
+            <a href="#itinerary">Itinerary</a>
+            <a href="#bingo">Bingo</a>
+            <a href="#teams">Teams</a>
+            <a href="#scorecard">Scorecard</a>
+        </div>
+        <div id="itinerary">
+            <img class="logo itinerary-logo" src="./assets/itinerary-logo.png" />
+            <div class="itinerary-line-title">
+                <img class="itinerary-line" src="./assets/itinerary_line.png" />
+                <span class="itinerary-title">JENNA'S 30TH</span>
+            </div>
+            <table class="itinerary-table">
+                <tr>
+                    <td width="35%" class="font-bolder">3:45:</td>
+                    <td>Meeting spot - <span class="text-pink font-bolder">Ready Rooftop</span></td>
+                </tr>
+                <tr>
+                    <td class="font-bolder">4:45:</td>
+                    <td>Board party bus<br />
+                        party bus to Stop 1</td>
+                </tr>
+                <tr>
+                    <td class="font-bolder">6:00-6:30:</td>
+                    <td>Quick stop at <span class="text-pink font-bolder">The Skinny</span><br />
+                        for drink/restrooms<br />
+                        Party bus to Stop 2<br />
+                        (+/- pizza stop on request)</td>
+                </tr>
+                <tr>
+                    <td class="font-bolder">7:30-9:30:</td>
+                    <td>Stop 2 - <span class="text-pink font-bolder">Space Ping Pong</span><br />
+                        for beer olympics<br />
+                        Tables reserved for games,<br />
+                        open beer and wine bar<br />
+                        Party bus to Stop 3</td>
+                </tr>
+                <tr>
+                    <td class="font-bolder">10:00:</td>
+                    <td>Stop 3 - <span class="text-pink font-bolder">The Perry Club</span> <br />
+                        Private room reserved with bar</td>
+                </tr>
+            </table>
+            <img class="itinerary-line" src="./assets/itinerary_line.png" />
+        </div>
+        <div id="bingo">
+            <img class="bingo-logo logo" src="./assets/bingo-logo.png" />
+            <h1 class="bingo-title">Jenna’s 30th Festivities</h1>
+            <table class="bingo-table">
+                <tr>
+                    <td>
+                        <div class="card" id="card-1-1">Jenna’s 30th Festivities</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-1-2">Start a limbo line</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-1-3">Pickleback shot</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-1-4">Try on a stranger’s article of clothing or accessory</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-1-5">Give a piggyback ride</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" id="card-2-1">Body shot!!</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-2-2">Request a song (successfully)</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-2-3">Kiss someone</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-2-4">Do karoke</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-2-5">Wrong bathroom entrance</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" id="card-3-1">Be in the center of a dance circle </div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-3-2">Drink a shot with a straw</div>
+                    </td>
+                    <td>
+                        <img src="./assets/center_img.png" alt="">
+                    </td>
+                    <td>
+                        <div class="card" id="card-3-4">Touch a mustache</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-3-5">Start a conga line</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" id="card-4-1">Photobomb a stranger’s selfie</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-4-2">Double fist two drinks</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-4-3">Dance on a poll</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-4-4">Post something on social media</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-4-5">Dance with a stranger</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" id="card-5-1">Order a drink with a foreign accent</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-5-2">Give someone a pen tattoo</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-5-3">Win a chug off</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-5-4">Take a selfie with a bartender</div>
+                    </td>
+                    <td>
+                        <div class="card" id="card-5-5">Dance on a table or chair</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="teams">
+            <img class="teams-img" src="./assets/teams.png" alt="">
+        </div>
+        <div id="scorecard">
+            <p class="font-bolder text-3xl text-black text-left">Beer Olympics</p>
+            <table class="scorecard-table1">
+                <tr>
+                    <th width='45%'>TEAM</th>
+                    <th>WINS</th>
+                    <th>LOSSES</th>
+                </tr>
+                <tr>
+                    <td>1 | Black Team</td>
+                    <td><input type="text" data-team="black" data-type="wins" class="score" /></td>
+                    <td><input type="text" data-team="black" data-type="losses" class="score" /></td>
+                </tr>
+                <tr>
+                    <td>2 | Green Team</td>
+                    <td><input type="text" data-team="green" data-type="wins" class="score" /></td>
+                    <td><input type="text" data-team="green" data-type="losses" class="score" /></td>
+                </tr>
+                <tr>
+                    <td>3 | Pink Team</td>
+                    <td><input type="text" data-team="pink" data-type="wins" class="score" /></td>
+                    <td><input type="text" data-team="pink" data-type="losses" class="score" /></td>
+                </tr>
+                <tr>
+                    <td>4 | Red Team</td>
+                    <td><input type="text" data-team="red" data-type="wins" class="score" /></td>
+                    <td><input type="text" data-team="red" data-type="losses" class="score" /></td>
+                </tr>
+                <tr>
+                    <td>5 | Blue Team</td>
+                    <td><input type="text" data-team="blue" data-type="wins" class="score" /></td>
+                    <td><input type="text" data-team="blue" data-type="losses" class="score" /></td>
+                </tr>
+            </table>
+            <table class="scorecard-table2">
+                <tr>
+                    <th><span class="font-bolder">Round1</span> <span>Beer Pong</span></th>
+                    <th><span class="font-bolder">Round2</span> <span>Flip Cup</span></th>
+                    <th><span class="font-bolder">Round3</span> <span>Corners</span></th>
+                    <th><span class="font-bolder">Round4</span> <span>Stack Cup</span></th>
+                    <th><span class="font-bolder">Round5</span> <span>Civil War</span></th>
+                </tr>
+                <tr>
+                    <td>Black vs. Green</td>
+                    <td>Blue vs. Red</td>
+                    <td>Green vs. Pink</td>
+                    <td>Black vs. Blue</td>
+                    <td>Green vs. Blue</td>
+                </tr>
+                <tr>
+                    <td>Pink vs. Red</td>
+                    <td>Pink vs. Black</td>
+                    <td>Red vs. Blue</td>
+                    <td>Red vs. Green</td>
+                    <td>Red vs. Black</td>
+                </tr>
+                <tr>
+                    <td>Blue vs. Bye</td>
+                    <td>Green vs. Bye</td>
+                    <td>Black vs. Bye</td>
+                    <td>Red vs. Bye</td>
+                    <td>Pink vs. Bye</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <script>
         $(document).ready(function () {
             let status = JSON.parse(localStorage.getItem("card-status"));
-            if(status == null) status = [];
+            if (status == null) status = [];
             status.forEach(card => {
                 $(`#${card}`).addClass("selected-card");
             });
-            
+
             $('.card').click(function () {
                 const $this = $(this);
                 const index = status.indexOf($this.attr('id'));
@@ -118,6 +233,28 @@
                 }
 
                 localStorage.setItem("card-status", JSON.stringify(status));
+            })
+
+            let scores = JSON.parse(localStorage.getItem("score-status"));
+            if (scores == null) {
+                scores = [
+                    { 'team': 'black', 'wins': 0, 'losses': 0 },
+                    { 'team': 'green', 'wins': 0, 'losses': 0 },
+                    { 'team': 'pink', 'wins': 0, 'losses': 0 },
+                    { 'team': 'red', 'wins': 0, 'losses': 0 },
+                    { 'team': 'blue', 'wins': 0, 'losses': 0 }
+                ]
+            }
+            scores.forEach(item => {
+                $(`input[data-team="${item.team}"][data-type="wins"]`).val(item.wins);
+                $(`input[data-team="${item.team}"][data-type="losses"]`).val(item.losses);
+            });
+            
+            $('.score').keyup(function () {
+                const $this = $(this);
+                let index = scores.findIndex(item => item.team === $this.attr('data-team'));
+                scores[index][$this.attr('data-type')] = $this.val();
+                localStorage.setItem("score-status", JSON.stringify(scores));
             })
         })
     </script>
